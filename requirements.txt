@@ -1,0 +1,4 @@
+nltk>=3.3
+torch>=1.1.0
+numpy>=1.14.2
+allennlp>=0.8.4
