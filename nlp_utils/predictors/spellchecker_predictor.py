@@ -15,10 +15,16 @@ punctuation += '«»—…“”№–'
 punctuation_to_keep = re.compile(r'[.,]*([!"#$%&\'()*+\-/:;<=>?@\[\]\\^_`{}|~«»—…“”№–]*)')
 
 NAMED_ENTITIES = {
-    'ФизЛицо',
-    'НЮЛ',
-    'ГосОрган',
-    'Адрес'
+    'PER',
+    'PERSON',
+    'NORP',
+    'FAC',
+    'ORG',
+    'LOC',
+    'PRODUCT',
+    'EVENT',
+    'WORK_OF_ART',
+    'LAW'
 }
 
 
